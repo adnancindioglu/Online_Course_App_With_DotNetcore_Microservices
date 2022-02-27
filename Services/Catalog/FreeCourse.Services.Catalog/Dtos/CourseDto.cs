@@ -2,7 +2,7 @@
 
 namespace FreeCourse.Services.Catalog.Dtos
 {
-    internal class CourseDto
+    public class CourseDto
     {
         public string Id { get; set; }
 
@@ -12,7 +12,7 @@ namespace FreeCourse.Services.Catalog.Dtos
 
         public decimal Price { get; set; }
 
-        public int Picture { get; set; }
+        public string Picture { get; set; }
 
         public string UserId { get; set; }
 
